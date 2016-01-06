@@ -22,7 +22,7 @@ data$days_since       = as.numeric(difftime(time1 = "2016-01-01",
 # Display the data after transformation
 head(data)
 summary(data)
-
+#to simulate the sql file
 # Compute key marketing indicators using SQL language
 library(sqldf)
 
